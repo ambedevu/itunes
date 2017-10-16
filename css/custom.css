@@ -59,6 +59,7 @@ ol {
   counter-reset: i 0;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 ol li:before {
@@ -79,8 +80,9 @@ ol li:before {
 
 .list-group-item {
   margin-bottom: 2px;
-  border-radius: 10px;
+  border-radius: 10px;  !important
 }
+
 .album_1 .list-group-item {
   border: solid 1px rgba(90, 90, 90, 0.6);
 }
@@ -262,7 +264,8 @@ iframe{
 
 /*social media*/
 .social{
-  margin:auto;
+  display: flex;
+  justify-content: space-around;
 }
 .social .fa{
    display: inline-block;
